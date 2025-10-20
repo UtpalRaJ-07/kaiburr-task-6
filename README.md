@@ -43,6 +43,12 @@ All 5 Kaiburr tasks have been completed and validated. This repository contains 
 
 ![CI/CD Final Summary (Task 4)](screenshots/final_summary_task4.png)
 
+### Frontend Design (UI Preview)
+
+![Frontend Design](screenshots/frontend_design.jpg)
+
+_Preview of the application UI design captured from a live frontend session._
+
 ---
 
 ## 📁 Included Files
