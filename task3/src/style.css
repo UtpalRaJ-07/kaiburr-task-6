@@ -1,0 +1,125 @@
+@import 'antd/dist/reset.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { 
+  height: 100%; 
+  font-family: 'Rajdhani', 'Teko', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: 
+    radial-gradient(ellipse at top, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom, rgba(219, 39, 119, 0.15) 0%, transparent 50%),
+    linear-gradient(135deg, #0a0118 0%, #1a0b2e 25%, #16213e 50%, #0f1729 75%, #0a0118 100%);
+  background-attachment: fixed;
+  color: #ffffff;
+  min-height: 100vh;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+/* Gaming-style glow effects */
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.5), 0 0 40px rgba(139, 92, 246, 0.3); }
+  50% { box-shadow: 0 0 30px rgba(139, 92, 246, 0.7), 0 0 60px rgba(139, 92, 246, 0.5); }
+}
+
+@keyframes neon-pulse {
+  0%, 100% { text-shadow: 0 0 10px rgba(139, 92, 246, 0.8), 0 0 20px rgba(139, 92, 246, 0.6), 0 0 30px rgba(139, 92, 246, 0.4); }
+  50% { text-shadow: 0 0 20px rgba(139, 92, 246, 1), 0 0 40px rgba(139, 92, 246, 0.8), 0 0 60px rgba(139, 92, 246, 0.6); }
+}
+
+/* Gaming-Style Ant Design overrides */
+.ant-form-item-label > label {
+  color: #e0d4ff !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  font-family: 'Orbitron', sans-serif !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+}
+
+.ant-input {
+  background: rgba(16, 5, 35, 0.8) !important;
+  border: 2px solid #8b5cf6 !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-family: 'Rajdhani', sans-serif !important;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.5), 0 0 10px rgba(139, 92, 246, 0.2) !important;
+}
+
+.ant-input:hover {
+  border-color: #a78bfa !important;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.5), 0 0 15px rgba(139, 92, 246, 0.4) !important;
+}
+
+.ant-input:focus {
+  border-color: #c4b5fd !important;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.5), 0 0 20px rgba(139, 92, 246, 0.6) !important;
+}
+
+.ant-input::placeholder {
+  color: #a78bfa !important;
+  font-weight: 400 !important;
+}
+
+.ant-list-item {
+  border-color: rgba(139, 92, 246, 0.3) !important;
+  padding: 2rem !important;
+  background: rgba(16, 5, 35, 0.4) !important;
+}
+
+.ant-btn {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  font-family: 'Orbitron', sans-serif !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+}
+
+.ant-btn-primary {
+  background: linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%) !important;
+  border: 2px solid #a78bfa !important;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.5), 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+  color: #ffffff !important;
+}
+
+.ant-btn-primary:hover {
+  background: linear-gradient(135deg, #a78bfa 0%, #ec4899 100%) !important;
+  border-color: #c4b5fd !important;
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.8), 0 6px 20px rgba(0, 0, 0, 0.6) !important;
+  transform: translateY(-3px) !important;
+}
+
+.ant-btn-default {
+  background: rgba(30, 15, 50, 0.8) !important;
+  border: 2px solid #6366f1 !important;
+  color: #c4b5fd !important;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.3) !important;
+}
+
+.ant-btn-default:hover {
+  background: rgba(45, 25, 70, 0.9) !important;
+  border-color: #818cf8 !important;
+  color: #e0d4ff !important;
+  box-shadow: 0 0 25px rgba(99, 102, 241, 0.5) !important;
+}
+
+.ant-btn-dangerous {
+  background: linear-gradient(135deg, #dc2626 0%, #db2777 100%) !important;
+  border: 2px solid #f87171 !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 20px rgba(220, 38, 38, 0.5), 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+.ant-btn-dangerous:hover {
+  background: linear-gradient(135deg, #ef4444 0%, #ec4899 100%) !important;
+  border-color: #fca5a5 !important;
+  box-shadow: 0 0 30px rgba(220, 38, 38, 0.8), 0 6px 20px rgba(0, 0, 0, 0.6) !important;
+  transform: translateY(-3px) !important;
+}

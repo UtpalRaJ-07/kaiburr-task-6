@@ -51,6 +51,16 @@ All 5 Kaiburr tasks have been completed and validated. This repository contains 
 - `SUBMISSION_GUIDE_COPY.md` — Submission instructions copy
 - `screenshots/` — Visual evidence of task completion
 
+## 📂 Per-Task Code and Instructions
+
+This repository bundles the code for each task into separate folders. To explore each task, open its folder and follow the included `README.md`:
+
+- `task1/` — Java REST API (backend). Contains `src/` and `pom.xml`. Run using Maven: `mvn spring-boot:run`.
+- `task2/` — Kubernetes manifests and deployment files. See `k8s/` and `README.md` for `kubectl` commands.
+- `task3/` — React frontend (Vite). Contains `src/`, `package.json`. Run using `npm install` and `npm run dev`.
+- `task4/` — CI/CD workflow definitions (.github/workflows) and pipeline docs.
+- `task5/` — ML Text Classification. Run `python task5_complete.py` after installing requirements.
+
 ---
 
 ## 📌 Next Steps
