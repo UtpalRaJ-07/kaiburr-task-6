@@ -35,6 +35,14 @@ All 5 Kaiburr tasks have been completed and validated. This repository contains 
 
 ![Task 5 Summary](screenshots/task5_summary.png)
 
+### Additional Evidence
+
+![Task Completion Status (Task 2)](screenshots/task_completion.png)
+
+![Docker Status (Task 2)](screenshots/docker_status.png)
+
+![CI/CD Final Summary (Task 4)](screenshots/final_summary_task4.png)
+
 ---
 
 ## 📁 Included Files
